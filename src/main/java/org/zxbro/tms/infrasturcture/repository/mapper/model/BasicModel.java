@@ -1,4 +1,4 @@
-package org.zxbro.tms.infrasturcture.mapper.model;
+package org.zxbro.tms.infrasturcture.repository.mapper.model;
 
 import lombok.Data;
 
