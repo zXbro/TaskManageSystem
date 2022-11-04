@@ -1,4 +1,4 @@
-package org.zxbro.tms.infrasturcture.service.impl;
+package org.zxbro.tms.infrasturcture.service.impl.mysql;
 
 import org.zxbro.tms.infrasturcture.service.IUserService;
 
