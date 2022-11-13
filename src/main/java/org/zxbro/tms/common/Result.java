@@ -21,4 +21,18 @@ public class Result {
      * 说明信息
      */
     private String message;
+
+    public static Result failed(String code, String message) {
+        Result result = new Result();
+        result.setSuccess(false);
+        result.setCode(code);
+        result.setMessage(message);
+        return result;
+    }
+
+    public static Result success() {
+        Result result = new Result();
+        result.setSuccess(true);
+        return result;
+    }
 }
