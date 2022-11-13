@@ -1,12 +1,12 @@
-package org.zxbro.tms.api.model;
+package org.zxbro.tms.api.event.model;
 
 import lombok.Data;
 
 /**
  * @author : yu.zhang
- * @date : 2022/11/4 20:36
+ * @date : 2022/11/4 20:37
  * Email : zephyrjung@126.com
  **/
 @Data
-public class TaskVO {
+public class EventVO {
 }

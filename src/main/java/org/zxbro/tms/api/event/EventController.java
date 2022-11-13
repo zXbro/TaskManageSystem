@@ -1,10 +1,10 @@
-package org.zxbro.tms.api;
+package org.zxbro.tms.api.event;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.zxbro.tms.common.Result;
+import org.zxbro.tms.api.model.Result;
 
 /**
  * @author : yu.zhang

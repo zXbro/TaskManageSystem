@@ -1,4 +1,4 @@
-package org.zxbro.tms.api;
+package org.zxbro.tms.api.user;
 
 import cn.authing.core.auth.AuthenticationClient;
 import cn.authing.core.types.LoginByEmailInput;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.zxbro.tms.api.model.UserLoginInfo;
-import org.zxbro.tms.common.Result;
+import org.zxbro.tms.api.user.model.UserLoginInfo;
+import org.zxbro.tms.api.model.Result;
 
 /**
  * @author : yu.zhang

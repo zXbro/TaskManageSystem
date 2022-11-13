@@ -1,4 +1,4 @@
-package org.zxbro.tms.api.model;
+package org.zxbro.tms.api.user.model;
 
 import lombok.Data;
 
