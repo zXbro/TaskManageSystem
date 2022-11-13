@@ -24,8 +24,8 @@ public class EventController {
         return null;
     }
 
-    @PostMapping("/add")
-    public Result eventAdd() {
+    @PostMapping("/create")
+    public Result eventCreate() {
         return null;
     }
 
